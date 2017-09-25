@@ -1,0 +1,136 @@
+h1 {
+    padding: 0 15px;
+	text-align: left;
+}
+
+.logo {
+    float: right;
+    margin-left: 70%;
+    margin-top: -84px;
+    margin-bottom: -100px;
+    position:fixed;
+    display: block;
+    z-index: 1;
+}
+
+.logo2 {
+    float: right;
+    margin-left: 69.3%;
+    margin-top: -85px;
+    margin-bottom: -100px;
+    position:fixed;
+    display: block;
+    z-index: 1;
+}
+
+.opmaakblok {
+    margin-bottom: 5%;
+    padding: 15px;
+    clear: both;
+}
+
+p {
+	padding: 0 15px;
+	text-align: left;
+}
+
+.active {
+    background-color: #0e7a36;
+	color: ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #22ad56;
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0e7a36;
+}
+
+body{
+ margin: 0px;
+ font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+nav {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin-bottom: 5%;
+}
+
+img {
+    margin: auto;
+}
+
+.img1 {
+    border: 1px solid darkgrey; /* darkgray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 20%; /* Set a small width */
+    float: right;
+}
+
+.img1:hover {
+    box-shadow: 0 0 2px 1px #0e7a36;
+}
+
+.home1{
+    border: 1px solid darkgrey; /* darkgray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 25%; /* Set a small width */
+    height: 25%;
+    float: left;
+    margin-right: 6%;
+    margin-left: 5%;
+}
+
+.home1:hover {
+    box-shadow: 0 0 2px 1px #0e7a36;  
+}
+
+.home2{
+    border: 1px solid darkgrey; /* darkgray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 25%; /* Set a small width */
+    float: center;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+.home2:hover{
+    box-shadow: 0 0 2px 1px #0e7a36;
+}
+
+.home3{
+    border: 1px solid darkgrey; /* darkgray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 25%; /* Set a small width */
+    float: right;
+    margin-right: 5%;
+    margin-left: 6%;
+}
+  
+.home3:hover{
+    box-shadow: 0 0 2px 1px #0e7a36;   
+}
