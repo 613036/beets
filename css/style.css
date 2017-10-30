@@ -1,32 +1,107 @@
+html, body {padding:0; margin:0; height:100%;}
+footer{
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    background-color: #22ad56;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0%;
+
+}
+
 h1 {
     padding: 0 15px;
 	text-align: left;
+    padding-left: 10%;
+}
+
+section {
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.last {
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
 }
 
 .logo {
     float: right;
-    margin-left: 70%;
+    margin-left: 69.3%;
     margin-top: -84px;
     margin-bottom: -100px;
     position:fixed;
-    display: block;
     z-index: 1;
+
+    
 }
 
 .logo2 {
     float: right;
     margin-left: 69.3%;
-    margin-top: -85px;
+    margin-top: -84px;
     margin-bottom: -100px;
     position:fixed;
-    display: block;
+    max-width: 100%;
     z-index: 1;
 }
 
 .opmaakblok {
     margin-bottom: 5%;
-    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
     clear: both;
+    
+}
+
+.contact {
+    border-radius: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;   
+}
+
+.textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    height: 180px;
+}
+
+
+
+input[type=submit] {
+    background-color: #22ad56;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0e7a36;
 }
 
 p {
@@ -39,6 +114,15 @@ p {
 	color: ;
 }
 
+nav {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin-bottom: 5%;
+}
+
+.navfooter {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -48,6 +132,16 @@ ul {
 	position: fixed;
     top: 0;
     width: 100%;
+}
+
+.ulfooter{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #22ad56;
+    top: 0;
+    width: 100%;  
 }
 
 li {
@@ -71,20 +165,15 @@ body{
  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
-nav {
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    margin-bottom: 5%;
-}
-
 img {
     margin: auto;
 }
 
 .img1 {
-    border: 1px solid darkgrey; /* darkgray border */
-    border-radius: 4px;  /* Rounded border */
-    padding: 5px; /* Some padding */
-    width: 20%; /* Set a small width */
+    border: 1px solid darkgrey;
+    border-radius: 4px;  
+    padding: 5px; 
+    width: 23%; 
     float: right;
 }
 
@@ -93,14 +182,15 @@ img {
 }
 
 .home1{
-    border: 1px solid darkgrey; /* darkgray border */
-    border-radius: 4px;  /* Rounded border */
-    padding: 5px; /* Some padding */
-    width: 25%; /* Set a small width */
-    height: 25%;
+    border: 1px solid darkgrey; 
+    border-radius: 4px;  
+    padding: 5px; 
+    width: 26.5%;
     float: left;
     margin-right: 6%;
-    margin-left: 5%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    text-align: left;
 }
 
 .home1:hover {
@@ -108,29 +198,79 @@ img {
 }
 
 .home2{
-    border: 1px solid darkgrey; /* darkgray border */
-    border-radius: 4px;  /* Rounded border */
-    padding: 5px; /* Some padding */
-    width: 25%; /* Set a small width */
-    float: center;
-    margin-right: 0%;
+    border: 1px solid darkgrey;
+    border-radius: 4px;
+    padding: 5px;
+    width: 26.5%;
+    float: right;
+    margin-right: 15%;
     margin-left: 0%;
+    margin-bottom: 7.1%;
+    margin-top: -1.9%;
 }
-
+  
 .home2:hover{
     box-shadow: 0 0 2px 1px #0e7a36;
 }
 
-.home3{
-    border: 1px solid darkgrey; /* darkgray border */
-    border-radius: 4px;  /* Rounded border */
-    padding: 5px; /* Some padding */
-    width: 25%; /* Set a small width */
+@media only screen and (max-width: 500px) {
+    .home1{
+        border: 1px solid darkgrey; 
+        border-radius: 4px;  
+        padding: 5px; 
+        width: 40%; 
+        float: left;
+        margin-right: 1%;
+        margin-left: 2%;
+    }
+    .home2{
+        border: 1px solid darkgrey;
+        border-radius: 4px;
+        padding: 5px;
+        width: 40%;
+        float: right;
+        margin-right: 2%;
+        margin-left: 0%;
+        margin-top: -12.5%;
+        margin-bottom: 17%;
+    }
+        
+    body {
+        background-color: white;
+    }
+    section {
+    padding-top: 50px;
+    }
+    .img1 {
+    border: 1px solid darkgrey;
+    border-radius: 4px;  
+    padding: 5px; 
+    width: 28%; 
     float: right;
-    margin-right: 5%;
-    margin-left: 6%;
+    }
+    .img1:hover {
+    box-shadow: 0 0 2px 1px #0e7a36;
+    }
+    .opmaakblok {
+    margin-bottom: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    clear: both;
 }
-  
-.home3:hover{
-    box-shadow: 0 0 2px 1px #0e7a36;   
+    .logo {
+    float: right;
+    margin-left: 70%;
+    margin-top: -84px;
+    margin-bottom: -100px;
+    position:fixed;
+    z-index: 1;   
+    }
+    .logo2 {
+    float: center;
+    margin-top: 90%;
+    position:fixed;    
+    z-index: 1;
+    max-width: 100%;
+    height: auto;
+    }
 }
