@@ -29,7 +29,7 @@ section {
     text-align: left;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
 }
 
 .logo {
@@ -88,8 +88,6 @@ input[type=text], select {
     margin-bottom: 16px; 
     height: 180px;
 }
-
-
 
 input[type=submit] {
     background-color: #22ad56;
@@ -175,6 +173,7 @@ img {
     padding: 5px; 
     width: 23%; 
     float: right;
+    margin-bottom: 5%;
 }
 
 .img1:hover {
