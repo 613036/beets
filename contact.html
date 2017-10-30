@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	</head>
+<body>    
     <nav>
     <a href="index.html" class="logo"><img src="img/logo2.png" alt="logo"></a>
        <ul>
@@ -14,12 +15,45 @@
 		<li><a href="bezienswaardigheden.html">Bezienswaardigheden</a></li>
         <li><a href="natuur.html">Natuur</a></li> 
 		<li><a href="routes.html">Routes</a></li>
-		<li><a class="active" href="contact.html">Contact</a></li>
-        <li><a href="overmij.html">Over Mij</a></li>
+
 	   </ul>
     </nav>
-	<body>
         <h1>Contact Formulier</h1>
+    
+        <section class="contact">
+            <form>
 
+                <label for="aanhef">Aanhef*</label>
+                <input type="text" id="aanhef" name="Aanhef" >
+
+                <label for="naam">Naam*</label>
+                <input type="text" id="naam" name="naam" >
+                
+                <label for="e-mail">E-mailadres*</label>
+                <input type="text" id="e-mail" name="e-mail" >
+                
+                <label for="telefoon">Telefoonnummer</label>
+                <input type="text" id="telefoon" name="telefoon" >
+                
+                <label for="url">Website adres</label>
+                <input type="text" id="url" name="url" >
+
+                <label for="vragen">Vragen of verzoeken*</label>
+                <textarea class="textarea" id="vragen" name="vragen"> </textarea>
+
+                <input type="submit" value="verzenden">
+                
+                <p> </p>
+
+            </form>
+        </section>
+    
+    
+    
+    
+        <footer>
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li><a href="overmij.html">Over Mij</a></li>
+        </footer>
     </body>	
 </html>
